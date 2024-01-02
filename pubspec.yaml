@@ -1,0 +1,286 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/elevation-360/images/icon.png
+    - assets/elevation-360/images/igtv.png
+    - assets/elevation-360/images/battery.png
+    - assets/elevation-360/images/official-icon.png
+    - assets/elevation-360/images/accounts-list.png
+    - assets/elevation-360/images/icon-gNH.png
+    - assets/elevation-360/images/messanger.png
+    - assets/elevation-360/images/icon-7u7.png
+    - assets/elevation-360/images/private-icon.png
+    - assets/elevation-360/images/camera-icon.png
+    - assets/elevation-360/images/icon-QAZ.png
+    - assets/elevation-360/images/wifi.png
+    - assets/elevation-360/images/line.png
+    - assets/elevation-360/images/auto-group-gegm.png
+    - assets/elevation-360/images/icon-ptu.png
+    - assets/elevation-360/images/like.png
+    - assets/elevation-360/images/icon-ahB.png
+    - assets/elevation-360/images/mobile-signal-EDK.png
+    - assets/elevation-360/images/mobile-signal-Nyj.png
+    - assets/elevation-360/images/icon-MX3.png
+    - assets/elevation-360/images/mobile-signal.png
+    - assets/elevation-360/images/icon-PXT.png
+    - assets/elevation-360/images/line-TPK.png
+    - assets/elevation-360/images/battery-8tm.png
+    - assets/elevation-360/images/more-icon.png
+    - assets/elevation-360/images/wifi-Eoo.png
+    - assets/elevation-360/images/oval.png
+    - assets/elevation-360/images/add-story.png
+    - assets/elevation-360/images/oval-6vy.png
+    - assets/elevation-360/images/grid-icon.png
+    - assets/elevation-360/images/icon-Tth.png
+    - assets/elevation-360/images/video-icon.png
+    - assets/elevation-360/images/oval-1Vf.png
+    - assets/elevation-360/images/image-1.png
+    - assets/elevation-360/images/face-masks.png
+    - assets/elevation-360/images/oval-Bph.png
+    - assets/elevation-360/images/oval-1ch.png
+    - assets/elevation-360/images/image-2.png
+    - assets/elevation-360/images/battery-C2y.png
+    - assets/elevation-360/images/oval-Ap5.png
+    - assets/elevation-360/images/mobile-signal-cfP.png
+    - assets/elevation-360/images/menu.png
+    - assets/elevation-360/images/back-oDF.png
+    - assets/elevation-360/images/rectangle-bg-wAM.png
+    - assets/elevation-360/images/battery-EDT.png
+    - assets/elevation-360/images/seperator-Jrq.png
+    - assets/elevation-360/images/oval-9gy.png
+    - assets/elevation-360/images/seperator-9i5.png
+    - assets/elevation-360/images/seperator-J5B.png
+    - assets/elevation-360/images/mobile-signal-WAR.png
+    - assets/elevation-360/images/rectangle.png
+    - assets/elevation-360/images/oval-KyX.png
+    - assets/elevation-360/images/rectangle-Pmf.png
+    - assets/elevation-360/images/cellular-connection.png
+    - assets/elevation-360/images/image-14.png
+    - assets/elevation-360/images/wifi-1LR.png
+    - assets/elevation-360/images/battery-YLM.png
+    - assets/elevation-360/images/rectangle-JKX.png
+    - assets/elevation-360/images/boomerang.png
+    - assets/elevation-360/images/icon-tdT.png
+    - assets/elevation-360/images/rectangle-eEq.png
+    - assets/elevation-360/images/rectangle-bg.png
+    - assets/elevation-360/images/rectangle-kGu.png
+    - assets/elevation-360/images/tab-2.png
+    - assets/elevation-360/images/rectangle-7MX.png
+    - assets/elevation-360/images/wifi-SPo.png
+    - assets/elevation-360/images/comment.png
+    - assets/elevation-360/images/wifi-1fB.png
+    - assets/elevation-360/images/rectangle-bg-kcm.png
+    - assets/elevation-360/images/rectangle-8dK.png
+    - assets/elevation-360/images/image-8.png
+    - assets/elevation-360/images/change-camera.png
+    - assets/elevation-360/images/oval-ebf.png
+    - assets/elevation-360/images/auto-group-vzk3.png
+    - assets/elevation-360/images/emoji.png
+    - assets/elevation-360/images/combine-photos.png
+    - assets/elevation-360/images/battery-jDF.png
+    - assets/elevation-360/images/messanger-4mK.png
+    - assets/elevation-360/images/mobile-signal-R65.png
+    - assets/elevation-360/images/rectangle-jW5.png
+    - assets/elevation-360/images/oval-ttm.png
+    - assets/elevation-360/images/rectangle-njF.png
+    - assets/elevation-360/images/face-masks-pZT.png
+    - assets/elevation-360/images/rectangle-sgR.png
+    - assets/elevation-360/images/rectangle-YGm.png
+    - assets/elevation-360/images/rectangle-bg-J13.png
+    - assets/elevation-360/images/rectangle-EvH.png
+    - assets/high-quality-resources-for-ui-designers/images/star-3js.png
+    - assets/elevation-360/images/pagination.png
+    - assets/elevation-360/images/rectangle-Dh7.png
+    - assets/elevation-360/images/rectangle-kiy.png
+    - assets/elevation-360/images/back.png
+    - assets/elevation-360/images/rectangle-gcd.png
+    - assets/elevation-360/images/rectangle-FQq.png
+    - assets/elevation-360/images/rectangle-cFP.png
+    - assets/elevation-360/images/rectangle-BJV.png
+    - assets/elevation-360/images/seperator.png
+    - assets/elevation-360/images/image-12.png
+    - assets/elevation-360/images/icon-kVs.png
+    - assets/elevation-360/images/oval-Eds.png
+    - assets/elevation-360/images/mobile-signal-4WR.png
+    - assets/elevation-360/images/video-icon-XRw.png
+    - assets/elevation-360/images/rectangle-aDj.png
+    - assets/elevation-360/images/rectangle-P25.png
+    - assets/elevation-360/images/tags-icon.png
+    - assets/elevation-360/images/seperator-2pD.png
+    - assets/elevation-360/images/other-albums.png
+    - assets/elevation-360/images/wifi-UQm.png
+    - assets/elevation-360/images/oval-bkH.png
+    - assets/elevation-360/images/oval-wZF.png
+    - assets/elevation-360/images/icon-8Nq.png
+    - assets/elevation-360/images/battery-HFj.png
+    - assets/elevation-360/images/image-9.png
+    - assets/elevation-360/images/battery-Q5T.png
+    - assets/elevation-360/images/icon-menu.png
+    - assets/elevation-360/images/light.png
+    - assets/elevation-360/images/questions.png
+    - assets/elevation-360/images/wifi-5xH.png
+    - assets/elevation-360/images/seperator-rCM.png
+    - assets/elevation-360/images/cellular-connection-Cn1.png
+    - assets/elevation-360/images/image-11.png
+    - assets/elevation-360/images/rectangle-Rwb.png
+    - assets/elevation-360/images/image-13.png
+    - assets/elevation-360/images/save.png
+    - assets/elevation-360/images/rectangle-n2H.png
+    - assets/elevation-360/images/rectangle-iwX.png
+    - assets/elevation-360/images/wifi-tLD.png
+    - assets/elevation-360/images/battery-r29.png
+    - assets/elevation-360/images/seperator-oi5.png
+    - assets/elevation-360/images/rectangle-NmB.png
+    - assets/elevation-360/images/wifi-nww.png
+    - assets/elevation-360/images/oval-oY9.png
+    - assets/elevation-360/images/messanger-weM.png
+    - assets/elevation-360/images/settings.png
+    - assets/elevation-360/images/tags-icon-vZT.png
+    - assets/elevation-360/images/oval-fYy.png
+    - assets/elevation-360/images/rectangle-pK7.png
+    - assets/elevation-360/images/grid-tab.png
+    - assets/elevation-360/images/oval-Z3b.png
+    - assets/elevation-360/images/icon-C37.png
+    - assets/elevation-360/images/icon-i3P.png
+    - assets/elevation-360/images/tab-3.png
+    - assets/elevation-360/images/oval-HYh.png
+    - assets/elevation-360/images/accounts-list-U77.png
+    - assets/elevation-360/images/menu-iGM.png
+    - assets/elevation-360/images/oval-aLd.png
+    - assets/elevation-360/images/oval-TTB.png
+    - assets/elevation-360/images/icon-Ruo.png
+    - assets/elevation-360/images/icon-A5s.png
+    - assets/elevation-360/images/image-4.png
+    - assets/elevation-360/images/private-icon-gbw.png
+    - assets/elevation-360/images/add-story-VcZ.png
+    - assets/elevation-360/images/tab-4.png
+    - assets/elevation-360/images/oval-hoj.png
+    - assets/elevation-360/images/icon-Reu.png
+    - assets/elevation-360/images/tab-1.png
+    - assets/elevation-360/images/oval-7yo.png
+    - assets/elevation-360/images/oval-dhF.png
+    - assets/elevation-360/images/oval-i69.png
+    - assets/elevation-360/images/rectangle-Jbo.png
+    - assets/elevation-360/images/rectangle-35f.png
+    - assets/elevation-360/images/rectangle-QUV.png
+    - assets/elevation-360/images/rectangle-bg-Jvy.png
+    - assets/elevation-360/images/rectangle-j17.png
+    - assets/elevation-360/images/rectangle-bty.png
+    - assets/elevation-360/images/image-10.png
+    - assets/high-quality-resources-for-ui-designers/images/pixsellz.png
+    - assets/high-quality-resources-for-ui-designers/images/eco.png
+    - assets/elevation-360/images/image-5.png
+    - assets/elevation-360/images/image-6.png
+    - assets/elevation-360/images/image-3.png
+    - assets/elevation-360/images/rectangle-NKo.png
+    - assets/elevation-360/images/rectangle-41T.png
+    - assets/elevation-360/images/rectangle-gLm.png
+    - assets/high-quality-resources-for-ui-designers/images/star.png
+    - assets/high-quality-resources-for-ui-designers/images/info.png
+    - assets/elevation-360/images/image-16.png
+    - assets/elevation-360/images/image-7.png
+    - assets/high-quality-resources-for-ui-designers/images/star-3gH.png
+    - assets/elevation-360/images/image-15.png
+    - assets/high-quality-resources-for-ui-designers/images/star-JJ9.png
+    - assets/high-quality-resources-for-ui-designers/images/logo.png
+    - assets/high-quality-resources-for-ui-designers/images/bolt.png
+    - assets/high-quality-resources-for-ui-designers/images/star-ntd.png
+    - assets/high-quality-resources-for-ui-designers/images/logo-hUy.png
+    - assets/high-quality-resources-for-ui-designers/images/figma-ds-5.png
+    - assets/elevation-360/images/rectangle-2z9.png
+    - assets/high-quality-resources-for-ui-designers/images/block.png
+    - assets/high-quality-resources-for-ui-designers/images/block-1XT.png
+    - assets/high-quality-resources-for-ui-designers/images/e9738c53601d5c157frame-62-min-p-1080-1-bg.png
+    - assets/high-quality-resources-for-ui-designers/images/figma-ds-5-bg.png
+    - assets/high-quality-resources-for-ui-designers/images/e9738c53601d5c157frame-62-min-p-1080-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
